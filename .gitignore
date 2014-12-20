@@ -2,6 +2,8 @@
 *.log
 .classpath
 .project
+.cache
+.settings/*
 
 # just a worksheet for everybody, but don't commit it
 worksheet.sc
