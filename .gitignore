@@ -2,6 +2,10 @@
 *.log
 .classpath
 .project
+
+# just a worksheet for everybody, but don't commit it
+worksheet.sc
+
 # sbt specific
 .cache/
 .history/
