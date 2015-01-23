@@ -1,0 +1,25 @@
+*.class
+*.log
+.classpath
+.project
+.cache
+.settings/*
+
+# just a worksheet for everybody, but don't commit it
+worksheet.sc
+
+# sbt specific
+.cache/
+.history/
+.lib/
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+/bin/
