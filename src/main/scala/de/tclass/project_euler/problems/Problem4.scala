@@ -5,7 +5,7 @@ import scala.annotation.tailrec
 class Problem4 extends ProblemTrait {
 
   override def solve() = {
-    println(palindrom())
+    println(palindrom()+ " TODO: don't use var")
   }
   
  def palindrom(): Int = {
