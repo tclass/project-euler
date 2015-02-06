@@ -9,11 +9,11 @@ class Problem4 extends ProblemTrait {
   }
   
  def palindrom(): Int = {
-    var p = 0;
+    val list = List[Int]();
     for (x <- 0 to 999)
       for (y <- 0 to 999)
-        if (palindromFinder(x * y) && x * y > p) { p = x * y }
-    p
+        if (palindromFinder(x * y) && x * y > list.max) { list :+ x * y }
+    list.max
   }
 
   def palindromFinder(x: Int): Boolean = {
